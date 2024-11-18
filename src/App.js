@@ -10,7 +10,7 @@ import Contact from "./Component/Contact";
 import Footer from "./Component/Footer";
 function App() {
   return (
-    <div className=" bg-white px-24 sm:px-32">
+    <div className=" bg-white px-10">
 
       
       <Router>

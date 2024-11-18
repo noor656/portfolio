@@ -1,5 +1,6 @@
 import React from "react";
 import { PersonalData } from "../../Utilities/Data/PersonalData";
+import { profileImage } from "../../Utilities/Data/Profile";
 import { Link } from "react-router-dom";
 import { MdDownload } from "react-icons/md";
 
@@ -7,12 +8,14 @@ export default function Home() {
   return (
     <div className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8">
       <div className=" border-[#1b2c68a0] relative rounded-lg border-2 bg-gradient-to-r ">
-        <div className="px-4 lg:px-8 py-5">
+        <div className="p-6">
+          {" "}
           <h1 className="translate-x-6 text-3xl text-black leading-10 font-bold md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
             <span className="inline-flex items-center">
               Hello{" "}
               <img
-                src="../../../assets/profile/Hello.gif"
+                // src="../../../assets/profile/Hello.gif"
+                src={`${process.env.PUBLIC_URL}/assets/profile/Hello.gif`}
                 alt="Hello"
                 width="20px"
                 className="ml-2"
@@ -45,7 +48,7 @@ export default function Home() {
       <div className="flex justify-center items-center lg:items-end mt-8">
         <img
           className="w-[200px] md:w-[250px] lg:w-[300px] rounded-full transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
-          src={PersonalData.profile}
+          src={PersonalData.profileImg}
           alt="profile"
         />
       </div>

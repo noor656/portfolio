@@ -2,7 +2,11 @@ import React from "react";
 import { PersonalData } from "../../Utilities/Data/PersonalData";
 export default function AboutUs() {
   return (
-    <div className="border-t-2 border-violet-900 my-8 lg:py-4" id="about">
+    <div
+      id="about"
+      className="my-12 lg:my-16 relative border-t-2 border-violet-900"
+    >
+      {/* <div className="border-t-2 border-violet-900 my-8 lg:py-4" id="about"> */}
       <div className="flex justify-center my-2 lg:py-4">
         <div className="flex items-center">
           <span className="bg-[#776acb] text-white p-2 px-5 text-xl rounded-md uppercase">

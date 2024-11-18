@@ -33,7 +33,11 @@ function Contact() {
       );
   };
   return (
-    <div className="border-t-2 border-violet-900 my-8 lg:py-4" id="contact">
+    <div
+      id="contact"
+      className="my-12 lg:my-16 relative mt-24 border-t-2 border-violet-900"
+    >
+      {/* <div className="border-t-2 border-violet-900 my-8 lg:py-4" id="contact"> */}
       <div className="flex justify-center my-2 lg:py-4">
         <div className="flex items-center">
           <span className="bg-[#776acb] text-white p-2 px-5 text-xl rounded-md uppercase">
