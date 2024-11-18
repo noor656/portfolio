@@ -37,7 +37,7 @@ export default function Home() {
               target="_blank"
               to={PersonalData.resume}
             >
-              <span>Get Resume New</span>
+              <span>Get Resume</span>
               <MdDownload size={16} />
             </Link>
             {/* </Router> */}
