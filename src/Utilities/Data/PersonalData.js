@@ -2,7 +2,7 @@
 export const PersonalData = {
     name: "Noor Afshan",
     designation: "Full Stack Developer",
-    description: "My name is NOOR AFSHAN. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I am available for any kind of job opportunity that suits my skills and interests.",
+    description: "I'm Noor Afshan, a passionate front-end developer with a deep commitment to creating seamless, user-friendly web experiences. With a quick-learning mindset and a strong problem-solving ability, I excel at building dynamic, responsive interfaces using modern web technologies. I thrive on exploring new tools and frameworks, constantly refining my skills to stay ahead in the fast-paced tech world. My goal is to contribute to projects that make the web more accessible and intuitive for users. I am actively seeking opportunities to leverage my front-end development expertise in impactful and innovative projects.",
     email: 'afshan1424@gmail.com',
     address: 'Nagpur-440018',
     phone: '+91-9373831634',

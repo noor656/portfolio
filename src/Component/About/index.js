@@ -19,7 +19,7 @@ export default function AboutUs() {
           <p className="uppercase text-[#169ef2]  mb-5 text-xl font-medium">
             who i am ?
           </p>
-          <p className="text-black text-xl lg:text-xl indent-8">
+          <p className="text-black text-sm lg:text-xl">
             {PersonalData.description}
           </p>
           <div></div>
